@@ -1,3 +1,7 @@
+[![Back to Portfolio](https://img.shields.io/badge/←_Back_to_Portfolio-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aestevaomoraes)
+
+
+
 # DuckDB SQL Portfolio: Plataforma de Testes SQL e Análise de Dados
 
 ## Visão Geral
