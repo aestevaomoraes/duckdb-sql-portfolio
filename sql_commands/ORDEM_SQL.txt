@@ -1,0 +1,12 @@
+### ORDEM SQL SEMPRE 
+sql(
+'''
+SELECT 
+FROM 
+WHERE 
+GROUP 
+HAVING 
+ORDER BY 
+;
+'''
+)

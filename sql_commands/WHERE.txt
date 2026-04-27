@@ -1,0 +1,8 @@
+### show students who get scholl lunch (WHERE)
+sql(
+'''
+SELECT student_name, gpa, school_lunch
+FROM students
+WHERE school_lunch = 'Yes';
+'''
+)

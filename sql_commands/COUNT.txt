@@ -1,0 +1,9 @@
+### special keywords: LIMIT | COUNT | DISTINCT 
+sql(
+'''
+SELECT COUNT(*)
+FROM students
+WHERE school_lunch = 'Yes' AND gpa > 3.3;
+
+'''
+)

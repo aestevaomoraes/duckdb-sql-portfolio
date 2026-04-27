@@ -1,0 +1,8 @@
+### View the table (SELECT , FROM ) 
+sql(
+'''
+SELECT student_name, gpa, school_lunch
+FROM students
+LIMIT 5;
+'''
+)

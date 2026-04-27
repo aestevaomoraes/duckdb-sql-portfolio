@@ -1,0 +1,16 @@
+### Vendo as duas Tabelas students e student_grades
+sql(
+'''
+SELECT *
+FROM students;
+
+'''
+)
+
+sql(
+'''
+SELECT *
+FROM student_grades;
+
+'''
+)

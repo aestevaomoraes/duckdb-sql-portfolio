@@ -1,0 +1,10 @@
+### show the averange gpa for each grade level (GROUP BY)
+sql(
+'''
+SELECT grade_level, AVG(gpa) as average_gpa
+FROM students
+GROUP BY grade_level
+ORDER BY grade_level;
+
+'''
+)

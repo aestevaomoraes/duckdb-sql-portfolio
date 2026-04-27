@@ -1,0 +1,9 @@
+### sort the students by gpa (ORDER BY)
+sql(
+'''
+SELECT student_name, gpa, school_lunch
+FROM students
+WHERE school_lunch = 'Yes' AND gpa > 3.3
+ORDER BY gpa DESC;
+'''
+)

@@ -1,0 +1,11 @@
+### show the grade level an average gpa below 3.3 (HAVING)
+sql(
+'''
+SELECT grade_level, AVG(gpa) as avg_gpa
+FROM students
+WHERE gpa IS NOT NULL
+GROUP BY grade_level
+HAVING avg_gpa < 3.3
+ORDER BY grade_level;
+'''
+)

@@ -1,0 +1,9 @@
+### special keywords: LIMIT | COUNT | DISTINCT 
+sql(
+'''
+SELECT student_name, gpa, school_lunch
+FROM students
+LIMIT 5;
+
+'''
+)

@@ -1,0 +1,8 @@
+### SELECT Tabela de exemplo: students
+sql(
+'''
+SELECT *
+FROM students
+LIMIT 5;
+'''
+)

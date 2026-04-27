@@ -1,0 +1,9 @@
+### special keywords: LIMIT | COUNT | DISTINCT 
+sql(
+'''
+SELECT DISTINCT gpa
+FROM students
+ORDER BY gpa DESC;
+
+'''
+)
