@@ -29,6 +29,16 @@ A arquitetura do projeto combina:
 - `requirements.txt`: dependências do projeto
 - `.devcontainer/`: configuração do ambiente Codespaces
 
+## Pasta sql_commands/
+Esta pasta contém scripts SQL organizados para estudos, testes e exemplos práticos. Cada arquivo representa um conjunto de comandos SQL testados e validados, servindo como referência para:
+
+- Consultas de agregação e análise estatística
+- Operações de JOIN entre múltiplas tabelas
+- Funções de janela para rankings e análises temporais
+- Exemplos de otimização de queries
+
+Os scripts são mantidos em formato .sql ou .txt para fácil leitura e execução no notebook principal. Esta organização demonstra habilidade em documentar e estruturar código SQL de forma profissional, um diferencial importante para posições em análise de dados.
+
 ## Como Executar
 1. Abra o repositório no **GitHub Codespaces** ou em um ambiente local Python 3.9+
 2. Instale as dependências com:
